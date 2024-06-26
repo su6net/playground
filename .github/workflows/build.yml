@@ -13,6 +13,10 @@ on:
 jobs:
   pr-test:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      checks: write
     env:
       JASYPT_PASSWORD: ${{ secrets.JASYPT_PASSWORD }}
     steps:
