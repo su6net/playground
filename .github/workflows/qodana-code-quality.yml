@@ -23,6 +23,6 @@ jobs:
       - name: 'Qodana Scan'
         uses: JetBrains/qodana-action@v2024.1
         with:
-          args: --linter,jetbrains/qodana-jvm:2024.1
+          args: --linter,jetbrains/qodana-jvm:2024.1,--property=idea.suppressed.plugins.id=com.intellij.gradle
         env:
           QODANA_TOKEN: ${{ secrets.QODANA_TOKEN }}

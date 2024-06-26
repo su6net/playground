@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class PlaygroundApplication {
 
-    // 잡다한 수정
+    // 잡다한 수정2
     public static void main(String[] args) {
         SpringApplication.run(PlaygroundApplication.class, args);
     }
