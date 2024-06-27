@@ -7,8 +7,6 @@ on:
       - develop
     paths-ignore:
       - '.github/**'
-      - 'styleguide/**'
-      - '.editorconfig'
 
 jobs:
   pr-test:
